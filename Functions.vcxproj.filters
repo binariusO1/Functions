@@ -20,15 +20,4 @@
       <UniqueIdentifier>{a8a2c307-559f-487f-a7fd-ef5a9aab0bed}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="turn-vector.h">
-      <Filter>vector</Filter>
-    </ClInclude>
-    <ClInclude Include="sort_compare_(without_size).h">
-      <Filter>string</Filter>
-    </ClInclude>
-    <ClInclude Include="sort_compare_(with_size).h">
-      <Filter>string</Filter>
-    </ClInclude>
-  </ItemGroup>
 </Project>

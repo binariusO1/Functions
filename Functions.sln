@@ -5,6 +5,17 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions", "Functions.vcxproj", "{243B0CF3-F37B-461D-A336-30097BB0CA02}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "string", "string", "{AFDDA8D8-F9FE-4AF9-9ED9-C646CA494AFC}"
+	ProjectSection(SolutionItems) = preProject
+		sort_compare_(with_size).h = sort_compare_(with_size).h
+		sort_compare_(without_size).h = sort_compare_(without_size).h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vector", "vector", "{DB01E935-525A-4069-831E-6240A6A2CABD}"
+	ProjectSection(SolutionItems) = preProject
+		turn-vector.h = turn-vector.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
