@@ -13,5 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="vector">
+      <UniqueIdentifier>{1b3f7d06-353a-4b63-916e-c78895167fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="string">
+      <UniqueIdentifier>{a8a2c307-559f-487f-a7fd-ef5a9aab0bed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="turn-vector.h">
+      <Filter>vector</Filter>
+    </ClInclude>
+    <ClInclude Include="sort_compare_(without_size).h">
+      <Filter>string</Filter>
+    </ClInclude>
+    <ClInclude Include="sort_compare_(with_size).h">
+      <Filter>string</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
