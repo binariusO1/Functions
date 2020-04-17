@@ -20,4 +20,9 @@
       <UniqueIdentifier>{a8a2c307-559f-487f-a7fd-ef5a9aab0bed}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="convert_bin_to_int_(string-int).h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
