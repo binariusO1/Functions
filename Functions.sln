@@ -7,6 +7,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions", "Functions.vcxp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "string", "string", "{AFDDA8D8-F9FE-4AF9-9ED9-C646CA494AFC}"
 	ProjectSection(SolutionItems) = preProject
+		string-convert_bin_to_int_(string-int).h = string-convert_bin_to_int_(string-int).h
 		string-sort_compare_(with_size).h = string-sort_compare_(with_size).h
 		string-sort_compare_(without_size).h = string-sort_compare_(without_size).h
 	EndProjectSection

@@ -21,7 +21,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="convert_bin_to_int_(string-int).h">
+    <ClInclude Include="string-convert_bin_to_int_%28string-int%29.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
