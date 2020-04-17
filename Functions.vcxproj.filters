@@ -24,5 +24,8 @@
     <ClInclude Include="string-convert_bin_to_int_%28string-int%29.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="char-convert_bin_to_int(char-int).h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
