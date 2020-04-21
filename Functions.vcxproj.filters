@@ -27,8 +27,13 @@
     <ClInclude Include="char-convert_bin_to_int(char-int).h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TestsGenerator.h">
+    <ClInclude Include="string-turn-string.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

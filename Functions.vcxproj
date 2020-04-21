@@ -21,7 +21,10 @@
   <ItemGroup>
     <ClInclude Include="char-convert_bin_to_int(char-int).h" />
     <ClInclude Include="string-convert_bin_to_int_%28string-int%29.h" />
-    <ClInclude Include="TestsGenerator.h" />
+    <ClInclude Include="string-turn-string.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

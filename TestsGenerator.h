@@ -5,10 +5,10 @@ using namespace std;
 class testgen
 {
 private:
-	int debug;
+	bool debug;
 public:
 	//testgen() {};
-	testgen(int d=0) : debug(d)
+	testgen(int d=false) : debug(d)
 	{
 		// 0 - screen off
 		// 1 - screen on
@@ -17,13 +17,14 @@ public:
 	~testgen() {
 
 	};
-
-	void screen(const char* name1, long long var1)
+	template <class T>
+	//name, arg
+	void screen(const char* name1, T arg1)
 	{
 		if (debug) {
 			cout << name1;
 			cout << ": ";
-			cout << var1;
+			cout << arg1;
 			cout << endl;
 		}
 	}
