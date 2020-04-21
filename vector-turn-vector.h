@@ -1,3 +1,9 @@
+/*
+Function for turn to right or left vector's elements.
+step  = -1 // turn left
+step = 0 // turn right
+
+*/
 template <class T> void turn_vector(vector<T>& object, int step)
 {
 	if (step < 0)
