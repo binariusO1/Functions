@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="char-convert_bin_to_int(char-int).h" />
+    <ClInclude Include="searching - search_with_sentinel.h" />
     <ClInclude Include="string-convert_bin_to_int_%28string-int%29.h" />
     <ClInclude Include="string-turn-string.h" />
   </ItemGroup>

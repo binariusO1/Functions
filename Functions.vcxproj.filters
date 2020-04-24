@@ -30,6 +30,9 @@
     <ClInclude Include="string-turn-string.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="searching - search_with_sentinel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
