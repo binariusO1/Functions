@@ -25,6 +25,7 @@
     <ClInclude Include="string-turn-string.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="searching - binary search numbers.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

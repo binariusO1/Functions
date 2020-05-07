@@ -1,4 +1,6 @@
-bool cpr(string& a, string& b)
+// Alphabetical string order sorting (a1,a2,a10,a20 instead of a1,a10,a2,a20 )
+// Alphabetical sorting
+bool CprStringAlphabetical(string& a, string& b)
 {
 	for (int i = 0; i < a.size(); i++)
 	{
