@@ -6,23 +6,12 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions", "Functions.vcxproj", "{243B0CF3-F37B-461D-A336-30097BB0CA02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "string", "string", "{AFDDA8D8-F9FE-4AF9-9ED9-C646CA494AFC}"
-	ProjectSection(SolutionItems) = preProject
-		string-convert_bin_to_int_(string-int).h = string-convert_bin_to_int_(string-int).h
-		string-sort_compare_(alphabetical).h = string-sort_compare_(alphabetical).h
-		string-sort_compare_(natural).h = string-sort_compare_(natural).h
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vector", "vector", "{DB01E935-525A-4069-831E-6240A6A2CABD}"
-	ProjectSection(SolutionItems) = preProject
-		vector-turn-vector.h = vector-turn-vector.h
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "int", "int", "{F57EF95C-199D-4BF9-A108-26EE12F3E66E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "char", "char", "{B962F6EC-5033-4804-86E7-AFCCBBBE505E}"
-	ProjectSection(SolutionItems) = preProject
-		char-convert_bin_to_int(char-int).h = char-convert_bin_to_int(char-int).h
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

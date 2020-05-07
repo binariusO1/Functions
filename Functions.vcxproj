@@ -19,13 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="char-convert_bin_to_int(char-int).h" />
-    <ClInclude Include="searching - search_with_sentinel.h" />
-    <ClInclude Include="string-convert_bin_to_int_%28string-int%29.h" />
-    <ClInclude Include="string-turn-string.h" />
+    <ClInclude Include="convert_bin_to_int%28char-int%29.cpp" />
+    <ClInclude Include="searching - search_with_sentinel.cpp" />
+    <ClInclude Include="convert_bin_to_int_%28string-int%29.cpp" />
+    <ClInclude Include="sort_compare_string%28natural%29.cpp" />
+    <ClInclude Include="sort_compare_string%28alphabetical%29.cpp" />
+    <ClInclude Include="turn-string.cpp" />
+    <ClInclude Include="turn-vector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="searching - binary search numbers.cpp" />
+    <ClCompile Include="searching - binary search strings.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

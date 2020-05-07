@@ -21,17 +21,26 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="string-convert_bin_to_int_%28string-int%29.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="searching - search_with_sentinel.cpp">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="char-convert_bin_to_int(char-int).h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="convert_bin_to_int%28char-int%29.cpp">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="string-turn-string.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="convert_bin_to_int_%28string-int%29.cpp">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="searching - search_with_sentinel.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="turn-string.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="turn-vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sort_compare_string%28alphabetical%29.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sort_compare_string%28natural%29.cpp">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -39,6 +48,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="searching - binary search numbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="searching - binary search strings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
