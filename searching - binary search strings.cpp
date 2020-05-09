@@ -17,5 +17,5 @@ size_t BinSearchString(std::string* T, size_t n, std::string str, size_t p = 0)
 			p = sr + 1;
 	}
 
-	return -1; //return 0, when the funtion cannot find to element
+	return -1; //return -1, when the funtion cannot find to element
 }

@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="convert_bin_to_int%28char-int%29.cpp" />
+    <ClInclude Include="Dijkstra.h" />
     <ClInclude Include="searching - search_with_sentinel.cpp" />
     <ClInclude Include="convert_bin_to_int_%28string-int%29.cpp" />
     <ClInclude Include="sort_compare_string%28natural%29.cpp" />
@@ -28,6 +29,7 @@
     <ClInclude Include="turn-vector.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Dijkstra.cpp" />
     <ClCompile Include="searching - binary search numbers.cpp" />
     <ClCompile Include="searching - binary search strings.cpp" />
     <ClCompile Include="Source.cpp" />

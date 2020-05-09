@@ -17,5 +17,5 @@ size_t BinSearchNumber(long long* T, size_t n, long long var, size_t p = 0)
 			p = sr + 1;
 	}
 
-	return -1; //return 0, when the funtion cannot find to element
+	return -1; //return -1, when the funtion cannot find to element
 }
