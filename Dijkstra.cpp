@@ -7,7 +7,7 @@ Dijkstra::Dijkstra(size_t n, size_t e) : N(n), E(e), startPoint(0), endPoint(1)
 		i = INT_MAX;
 
 	graph = new vector<edge>[N + 1];  
-}
+}  
 void Dijkstra::AddPath(unsigned u, unsigned v, unsigned w)
 {
 	graph[u].push_back({ v, w });
