@@ -6,7 +6,7 @@ Dijkstra::Dijkstra(size_t n, size_t e) : N(n), E(e), startPoint(0), endPoint(1)
 	for (auto& i : dist)
 		i = INT_MAX;
 
-	graph = new vector<edge>[N + 1];
+	graph = new vector<edge>[N + 1];  
 }
 void Dijkstra::AddPath(unsigned u, unsigned v, unsigned w)
 {
