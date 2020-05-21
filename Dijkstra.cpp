@@ -17,7 +17,7 @@ void Dijkstra::SetStartEndPoints(unsigned S, unsigned T)
 	startPoint = S; 
 	endPoint = T;
 	dist[startPoint] = 0;
-	q.push({ S, 0 });
+	q.push({ S, 0 });  
 }
 void Dijkstra::GetPath()
 {
