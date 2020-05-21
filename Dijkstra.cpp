@@ -36,7 +36,7 @@ void Dijkstra::PathCalculation()
 		q.pop();
 		for (unsigned i = 0; i < graph[p.u].size(); i++)
 		{
-			unsigned u = p.u;
+			unsigned u = p.u;   
 			unsigned v = graph[p.u][i].u;
 			if (dist[u] + graph[p.u][i].w < dist[v])
 			{
