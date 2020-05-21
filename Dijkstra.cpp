@@ -11,7 +11,7 @@ Dijkstra::Dijkstra(size_t n, size_t e) : N(n), E(e), startPoint(0), endPoint(1)
 void Dijkstra::AddPath(unsigned u, unsigned v, unsigned w)
 {
 	graph[u].push_back({ v, w });
-}
+}  
 void Dijkstra::SetStartEndPoints(unsigned S, unsigned T)
 {
 	startPoint = S;
